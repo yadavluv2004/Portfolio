@@ -33,11 +33,11 @@ const AboutMe = () => {
                   {""} Get in Touch
                 </a>
                 <a
-                  href="/public/Luv yadav Resume.pdf"
-                  target="_blank"
-                  className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-color duration-300"
+                  href="/Luv-yadav.pdf"
+                  download="Luv-Yadav"
+                  className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
                 >
-                  {""} Download CV
+                  Download CV
                 </a>
               </div>
             </div>
