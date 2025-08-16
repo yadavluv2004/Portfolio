@@ -23,12 +23,12 @@ const ProjectsSection = () => {
     },
     {
       id: 3,
-      title: "Wheather-App",
-      description: "An real-Time wheather App",
-      image: "/projects/Simonsays.jpg",
+      title: "PortFolioPilot",
+      description: "PortFolioPilot is a full-stack, AI-powered resume and portfolio builder that leverages Gemini AI to help users generate highly personalized resume summaries and bullet points. It enables real-time customization, secure authentication, and one-click PDF expor",
+      image: "/projects/WhatsApp Image 2025-08-04 at 20.22.41_18833d6d.jpg",
       tags: ["React", "TailwindCSS", "Node.js"],
       demoUrl: "https://yadavluv2004.github.io/Simon-Say-Game/",
-      githurl: "https://github.com/yadavluv2004/Simon-Say-Game",
+      githurl: "https://port-folio-pilot.vercel.app/",
     },
   ];
 
