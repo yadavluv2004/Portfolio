@@ -4,7 +4,7 @@ import React from "react";
 const ProjectsSection = () => {
   const projects = [
     {
-      id: 1,
+      id: 3,
       title: "MeetHive",
       description: "A beautiful video conferencing app.",
       image: "/projects/MeetHive.jpeg",
@@ -22,9 +22,9 @@ const ProjectsSection = () => {
       githurl: "https://github.com/yadavluv2004/StayNest",
     },
     {
-      id: 3,
+      id: 1,
       title: "PortFolioPilot",
-      description: "PortFolioPilot is a full-stack, AI-powered resume and portfolio builder that leverages Gemini AI to help users generate highly personalized resume summaries and bullet points. It enables real-time customization, secure authentication, and one-click PDF expor",
+      description: "PortFolioPilot is a full-stack, AI-powered resume and portfolio builder",
       image: "/projects/WhatsApp Image 2025-08-04 at 20.22.41_18833d6d.jpg",
       tags: ["React", "TailwindCSS", "Node.js"],
       demoUrl: "https://yadavluv2004.github.io/Simon-Say-Game/",
