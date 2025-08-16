@@ -4,13 +4,13 @@ import React from "react";
 const ProjectsSection = () => {
   const projects = [
     {
-      id: 3,
-      title: "MeetHive",
-      description: "A beautiful video conferencing app.",
-      image: "/projects/MeetHive.jpeg",
+      id: 1,
+      title: "PortFolioPilot",
+      description: "PortFolioPilot is a full-stack, AI-powered resume and portfolio builder",
+      image: "/projects/WhatsApp Image 2025-08-04 at 20.22.41_18833d6d.jpg",
       tags: ["React", "TailwindCSS", "Node.js"],
-      demoUrl: "https://meethivefrontend.onrender.com",
-      githurl: "https://github.com/yadavluv2004/MeetHive",
+      demoUrl: "https://yadavluv2004.github.io/Simon-Say-Game/",
+      githurl: "https://port-folio-pilot.vercel.app/",
     },
     {
       id: 2,
@@ -22,13 +22,13 @@ const ProjectsSection = () => {
       githurl: "https://github.com/yadavluv2004/StayNest",
     },
     {
-      id: 1,
-      title: "PortFolioPilot",
-      description: "PortFolioPilot is a full-stack, AI-powered resume and portfolio builder",
-      image: "/projects/WhatsApp Image 2025-08-04 at 20.22.41_18833d6d.jpg",
+      id: 3,
+      title: "MeetHive",
+      description: "A beautiful video conferencing app.",
+      image: "/projects/MeetHive.jpeg",
       tags: ["React", "TailwindCSS", "Node.js"],
-      demoUrl: "https://yadavluv2004.github.io/Simon-Say-Game/",
-      githurl: "https://port-folio-pilot.vercel.app/",
+      demoUrl: "https://meethivefrontend.onrender.com",
+      githurl: "https://github.com/yadavluv2004/MeetHive",
     },
   ];
 
