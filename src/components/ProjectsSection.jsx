@@ -9,8 +9,8 @@ const ProjectsSection = () => {
       description: "PortFolioPilot is a full-stack, AI-powered resume and portfolio builder",
       image: "/projects/WhatsApp Image 2025-08-04 at 20.22.41_18833d6d.jpg",
       tags: ["React", "TailwindCSS", "Node.js"],
-      demoUrl: "https://yadavluv2004.github.io/Simon-Say-Game/",
-      githurl: "https://port-folio-pilot.vercel.app/",
+      demoUrl: "https://port-folio-pilot.vercel.app//",
+      githurl: "https://github.com/yadavluv2004/PortFolioPilot",
     },
     {
       id: 2,
