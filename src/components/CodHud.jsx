@@ -13,6 +13,13 @@ export const CodHud = () => {
   const [killIdx, setKillIdx] = useState(0);
   const [xp, setXp] = useState(0);
   const [visible, setVisible] = useState(true);
+  const [isMobile, setIsMobile] = useState(() => window.innerWidth < 768);
+
+  useEffect(() => {
+    const onResize = () => setIsMobile(window.innerWidth < 768);
+    window.addEventListener("resize", onResize);
+    return () => window.removeEventListener("resize", onResize);
+  }, []);
 
   // Hide HUD when user scrolls past the hero section
   useEffect(() => {
@@ -45,6 +52,8 @@ export const CodHud = () => {
     const t = setInterval(() => setXp(x => Math.min(x + 1, 87)), 80);
     return () => clearInterval(t);
   }, []);
+
+  if (isMobile) return null;
 
   return (
     <div style={{
